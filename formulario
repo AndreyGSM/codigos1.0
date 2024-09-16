@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de la Reserva</title>
+    <link rel="stylesheet" href="estilos.css/formularios.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/sprlogo.jpeg" alt="Logo" height="50"> <!-- Cambia 'ruta-al-logo' por la ruta correcta -->
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Iniciar sesión</a></li>
+                    <li><a href="#">Registro</a></li>
+                    <li><a href="#">Principal</a></li>
+                    <li><a href="#">Quiénes somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Detalles de la Reserva</h1>
+
+    <div class="reservation-details">
+        <h2>Reserva N°: 12345</h2>
+
+        <div class="detail">
+            <label>Proveedor de Servicios:</label>
+            <span>Servicios Tecnológicos S.A.</span>
+        </div>
+
+
+        <div class="detail">
+            <label>Fecha del Servicio:</label>
+            <span>20 de septiembre de 2024</span>
+        </div>
+
+        <div class="detail">
+            <label>Tipo de Servicio:</label>
+            <span>Desarrollo de Software</span>
+        </div>
+
+        
+    
+
+        <button onclick="goBack()">Volver</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+</html>
